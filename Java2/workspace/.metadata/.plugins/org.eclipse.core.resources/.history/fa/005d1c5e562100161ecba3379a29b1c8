@@ -1,0 +1,7 @@
+
+public class CalculadorDeImposto {
+	
+	public double executaCalculo(Orcamento orcamento, Imposto imposto){
+		return imposto.calcula(orcamento);
+	}
+}

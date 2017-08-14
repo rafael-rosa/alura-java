@@ -1,0 +1,7 @@
+1456968685081	Extract method 'geraNF'
+1456968754537	Extract method 'enviaEmail'
+1456968788079	Extract method 'salvarDB'
+1456970962153	Extract local variable 'lugaresDisponiveis'
+1456971143508	Extract method 'lugaresReservados'
+1456971301872	Inline local variable 'lugaresReservados'
+1457057639410	Extract constant '_2_7'

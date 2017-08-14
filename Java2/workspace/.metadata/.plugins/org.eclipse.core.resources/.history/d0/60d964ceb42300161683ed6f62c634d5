@@ -1,0 +1,9 @@
+
+public class TesteDeDescontos {
+	public static void main(String[] args) {
+		CalculadorDeDescontos descontos = new CalculadorDeDescontos();
+		
+		Orcamento orcamento = new Orcamento(700);
+		orcamento.adicionaItem(() -> return "Caneta",10.00);
+	}
+}

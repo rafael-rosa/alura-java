@@ -1,0 +1,6 @@
+
+public class TesteDeDescontos {
+	public static void main(String[] args) {
+		CalculadorDeDescontos descontos = new CalculadorDeDescontos();
+	}
+}

@@ -1,0 +1,11 @@
+
+public class TestaImposto {
+	public static void main(String[] args) {
+		Imposto iss = new ISS();
+		Orcamento orcamento = new Orcamento(100.00);
+		CalculadorDeImposto calc = new  CalculadorDeImposto(orcamento , iss);
+		double valImposto = calc.executaCalculo();
+		
+		System.out.println(valImposto);
+	}
+}

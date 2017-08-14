@@ -1,0 +1,14 @@
+
+public class CalculadorDeImposto {
+	private Orcamento orcamento;
+	private Imposto imposto;
+
+	public CalculadorDeImposto(Orcamento orcamento, Imposto imposto) {
+		this.orcamento = orcamento;
+		this.imposto = imposto;
+	}
+	
+	public double executaCalculo(){
+		return imposto.calcula(orcamento);
+	}
+}

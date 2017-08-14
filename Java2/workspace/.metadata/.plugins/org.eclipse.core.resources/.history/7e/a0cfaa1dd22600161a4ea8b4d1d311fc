@@ -1,0 +1,16 @@
+
+public class TesteDeDescontos {
+	public static void main(String[] args) {
+		CalculadorDeDescontos descontos = new CalculadorDeDescontos();
+		
+		Orcamento orcamento = new Orcamento(400);
+		orcamento.adicionaItem(new Item("Caneta",10.00));
+		orcamento.adicionaItem(new Item("lápis",450.00));
+		orcamento.adicionaItem(new Item("Paletó",450.00));
+		orcamento.adicionaItem(new Item("Paletó",450.00));
+		orcamento.adicionaItem(new Item("Paletó",450.00));
+		orcamento.adicionaItem(new Item("Paletó",450.00));
+		
+		System.out.println(descontos.calcula(orcamento));
+	}
+}

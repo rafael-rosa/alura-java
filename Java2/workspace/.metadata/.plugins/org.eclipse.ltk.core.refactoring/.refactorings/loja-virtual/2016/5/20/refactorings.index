@@ -1,0 +1,4 @@
+1462745328634	Extract method 'getConnection'
+1462750530241	Extract local variable 'sql'
+1462754507934	Extract method 'adicion'
+1462758622127	Rename type 'Database'

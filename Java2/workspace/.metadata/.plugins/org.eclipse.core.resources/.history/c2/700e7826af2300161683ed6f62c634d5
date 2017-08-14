@@ -1,0 +1,16 @@
+
+public class DescontoParaCincoItens implements Desconto{
+
+	@Override
+	public double desconta(Orcamento orcamento) {
+		if(Orcamento.getItens().size > 5)
+		return 0;
+	}
+
+	@Override
+	public void setProximo(Desconto desconto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

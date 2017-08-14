@@ -1,0 +1,2 @@
+prop.client.timeOut = 1000
+prop.client.loginAttempts = 3
